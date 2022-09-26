@@ -1,1 +1,1 @@
-web: npm install -g pm2 && pm2 link l2pc10372ircy8f t48inocckn5r20k && pm2 start index.js
+worker: node . --db 'mongodb+srv://db-vbot:Budirejo1@cluster0.ssoum2t.mongodb.net/?retryWrites=true&w=majority'
